@@ -117,6 +117,17 @@ a:hover, a:active {
   font-family: sans-serif;
 }
 #becode {
-  text-align: center;
   font-size: 30px;
+}
+#contact {
+  font-size: 20px;
+  position: absolute;
+  left: 830px;
+  top: 910px;
+}
+#contactInfo {
+  font-size: 20px;
+  position: absolute;
+  left: 800px;
+  top: 950px;
 }
