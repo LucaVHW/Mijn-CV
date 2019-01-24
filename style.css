@@ -1,35 +1,118 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-  'header header header header header header'
-  'menu main main main right right'
-  'menu footer footer footer footer footer';
-  grid-gap: 10px;
-  background-color: #9E9483;
+  'side header'
+  'side main'
+  'side footer';
+  background-color: white;
   padding: 10px;
+  justify-content: center;
 }
 .grid-container > div {
-  text-align: center;
   background-color: #423E37;
-  padding: 10px;
+  padding: 20px;
   color: white;
-  text-shadow: #24221D 3px 2px;
+  text-shadow: 3px 2px #2C2E2C;
   font-family: sans-serif;
-  border-radius: 15px;
+  width: 810px;
+  color: white;
+  border: 2px solid black;
+  background-image: url("http://hd-wallpapersfd.info/wp-content/uploads/HTML/Purple-HD-wallpaper/Purple-HD-wallpaper3.jpg");
 }
+
 .item1 {
   grid-area: header;
-  font-size: 15px;
+  height: 100px;
+  border-radius: 15px 15px 0px 0px;
 }
 .item2 {
-  grid-area: menu;
+  grid-area: main;
+  height: 700px;
 }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
-a {
+.item3 {
+  grid-area: footer;
+  height: 100px;
+  border-radius: 0px 0px 15px 15px;
+}
+h1 {
+  position: absolute;
+  left: 350px;
+  top: 35px;
+}
+h2 {
+  position: absolute;
+  left: 350px;
+  top: 80px;
+}
+#imgLuca {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+.title {
+  font-size: 20px;
+  font-family: monospace;
+}
+.info {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+#profile {
+  position: absolute;
+  left: 710px;
+  top: 184px;
+}
+#profileInfo {
+  position: absolute;
+  left: 710px;
+  top: 227px;
+}
+#skills {
+  position: absolute;
+  left: 710px;
+  top: 436px;
+}
+#skillsInfo {
+  position: absolute;
+  left: 710px;
+  top: 476px;
+}
+#certi {
+  position: absolute;
+  left: 710px;
+  top: 570px;
+}
+#certiInfo {
+  position: absolute;
+  left: 710px;
+  top: 609px;
+}
+a:link, a:visited {
+  background-color: #8A0099;
   color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
 }
-a:hover {
-  color: #ADA38F;
+
+
+a:hover, a:active {
+  background-color: #680073;
+}
+#linkedIn {
+  position: absolute;
+  left: 710px;
+  top: 720px;
+  font-family: sans-serif;
+
+}
+#Vcard {
+  position: absolute;
+  left: 850px;
+  top: 720px;
+  font-family: sans-serif;
 }
