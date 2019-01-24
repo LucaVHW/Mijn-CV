@@ -116,3 +116,7 @@ a:hover, a:active {
   top: 720px;
   font-family: sans-serif;
 }
+#becode {
+  text-align: center;
+  font-size: 30px;
+}
