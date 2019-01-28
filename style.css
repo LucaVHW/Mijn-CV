@@ -94,28 +94,26 @@ h2 {
 a:link, a:visited {
   background-color: #8A0099;
   color: white;
-  padding: 14px 25px;
+  padding: 15px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   border-radius: 8px;
 }
-
-
 a:hover, a:active {
   background-color: #680073;
 }
 #linkedIn {
   position: relative;
-  left: 450px;
-  top: 540px;
+  left: 500px;
+  top: -120px;
   font-family: sans-serif;
 
 }
 #Vcard {
   position: relative;
-  left: 460px;
-  top: 540px;
+  left: 510px;
+  top: -120px;
   font-family: sans-serif;
 }
 #becode {
