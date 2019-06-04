@@ -3,6 +3,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  overflow: hidden;
 }
 .side {
   padding: 10px;
@@ -21,13 +22,13 @@ body {
   border-radius: 0px 5px 5px 0px;
   box-shadow: 1px 2px grey;
   width: 650px;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   font-family: 'Open Sans', sans-serif;
+}
+.row {
+  display: flex;
   justify-content: space-around;
-  grid-template-areas:
-  'info info2'
-  'info3 info4'
-  'info6 info5';
 }
 .luca {
   border: 2px solid grey;
@@ -59,8 +60,6 @@ h3 {
 .info6 {
   width: 250px;
   color: #333;
-  position: relative;
-  top: -130px;
 }
 .links {
   display: grid;
